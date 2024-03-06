@@ -37,3 +37,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.inicial {
+    top: 79px;
+    left: 21px;
+    position: relative;
+    width: 270px;
+    height: 477px;
+}
