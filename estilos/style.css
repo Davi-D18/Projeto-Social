@@ -45,3 +45,24 @@ body {
     width: 270px;
     height: 477px;
 }
+
+/*Configuração para a section toda*/
+.redes-sociais {
+    text-align: right;
+}
+
+/*Essas configurações será aplicada nas imagens dos ícones das redes sociais*/
+.redes-sociais > a > img {
+    width: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;
+}
+
+.redes-sociais > a > img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    transition: 0.3s, border 0.4s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+}
